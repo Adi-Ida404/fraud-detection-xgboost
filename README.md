@@ -18,6 +18,8 @@ Built a fraud detection system using **XGBoost** on an imbalanced dataset with 6
 <img width="1010" height="547" alt="image" src="https://github.com/user-attachments/assets/4adad69b-61ff-4a17-9d55-5a6a3ee42ba8" />
  - Most Frauds Occur From 3 am to 6 am 
 
+---
+
 * ⚡ **Imbalanced Data Handling**: class weighting + custom recall-first objective
 
 Fraudulent transactions: 8213
@@ -27,6 +29,7 @@ Percentage of fraud transactions: 0.12908204481801522
 <img width="876" height="547" alt="image" src="https://github.com/user-attachments/assets/66291077-4550-4cad-ba30-eaefe0310b2b" />
 - Need to take a log to reduce the effect of outliers ( common in transactional datasets)
 
+---
 
 * 🔍 **Hyperparameter Optimization**: Optuna tuning for best precision–recall balance
 
@@ -44,12 +47,15 @@ Tuning complete.
 Best trial F1-score (with 100% recall): 0.8702898550724638
 Best parameters found:  {'n_estimators': 780, 'learning_rate': 0.09755368817832326, 'max_depth': 10, 'subsample': 0.6088709827067248, 'colsample_bytree': 0.690529990277774}
 ```
+---
 
 * ✅ **Results**: Achieved **100% recall** and improved precision from **52% → 63%**, reducing false positives by \~20%
 
 <img width="541" height="277" alt="image" src="https://github.com/user-attachments/assets/0cd666e5-ade0-42ee-a21a-7f11ce00b063" />
 
 <img width="515" height="435" alt="image" src="https://github.com/user-attachments/assets/89e9dc93-04ea-4418-b1bf-8eae92a07d94" />
+
+---
 
 #### 🛠️ Tech Stack
 
