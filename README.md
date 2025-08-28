@@ -22,9 +22,11 @@ Built a fraud detection system using **XGBoost** on an imbalanced dataset with 6
 
 * ⚡ **Imbalanced Data Handling**: class weighting + custom recall-first objective
 
-Fraudulent transactions: 8213
-Non-fraudulent transactions: 6354407
-Percentage of fraud transactions: 0.12908204481801522
+- Fraudulent transactions: 8213
+
+- Non-fraudulent transactions: 6354407
+
+- Percentage of fraud transactions: 0.12908204481801522
 
 <img width="876" height="547" alt="image" src="https://github.com/user-attachments/assets/66291077-4550-4cad-ba30-eaefe0310b2b" />
 - Need to take a log to reduce the effect of outliers ( common in transactional datasets)
